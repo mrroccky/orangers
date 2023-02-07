@@ -9,7 +9,7 @@ class GetAllJobsServises {
     var responce = await http.get(Uri.parse(getCorses), headers: {
       'Content-Type': 'application/json',
       'Accept': 'application/json',
-      'Origin': 'https://orangers.vercel.app/',
+      'Origin': 'https://orangers.vercel.app',
     });
     if (responce.statusCode == 200) {
       print("🚀🚀👌");
