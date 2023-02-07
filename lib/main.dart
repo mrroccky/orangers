@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
       appBar: AppBar(
         elevation: 0,
         backgroundColor: Color.fromARGB(251, 175, 204, 13),
-        title: allJobsController.AllJobs.length > 1 ? Text("yes") : Text("no"),
+        title: allJobsController.allJobs.length > 1 ? Text("yes") : Text("no"),
       ),
       drawer: Drawer(
         backgroundColor: Color.fromARGB(255, 177, 7, 177),
@@ -34,7 +34,7 @@ class MyApp extends StatelessWidget {
           Expanded(
             flex: 1,
             child: Container(
-              child: Text(allJobsController.AllJobs.length.toString()),
+              child: Text(allJobsController.allJobs.length.toString()),
               color: Color.fromARGB(255, 0, 129, 235),
             ),
           ),
