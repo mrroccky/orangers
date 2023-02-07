@@ -13,7 +13,7 @@ class GetAllJobsServises {
     });
     if (responce.statusCode == 200) {
       print("🚀🚀👌");
-      print(responce.body.toString());
+      // print(responce.body.toString());
       var jsonString = responce.body;
       return allJobsModelFromJson(jsonString);
     } else {
