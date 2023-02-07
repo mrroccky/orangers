@@ -34,6 +34,7 @@ class MyApp extends StatelessWidget {
           Expanded(
             flex: 1,
             child: Container(
+              child: Text(allJobsController.AllJobs.length.toString()),
               color: Color.fromARGB(255, 0, 129, 235),
             ),
           ),
