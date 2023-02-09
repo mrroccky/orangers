@@ -9,7 +9,6 @@ class GetAllJobsServises {
     var responce = await http.get(Uri.parse(getCorses), headers: {
       'Content-Type': 'application/json',
       'Accept': 'application/json',
-      'http2': 'false',
     });
     if (responce.statusCode == 200) {
       print("🚀🚀👌");
